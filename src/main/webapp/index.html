@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSocket Progress</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript"src="websocket.js"/></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section  class="container">
+        <h1>WebSocket Progress</h1>
+        <div>
+            <div class="progress-container">
+                <form id="form">
+                    <input id="btnSubmit" type="button" value="start" onclick="formSubmit();"/>
+                    <progress id="progress" value="0" max="100"></progress>
+                    <label for="progress" id="lblProgress"></label>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
